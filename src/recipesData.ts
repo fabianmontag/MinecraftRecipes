@@ -338,10 +338,22 @@ const Bow = {
     ingredients: [Stick, String],
 };
 
+const IronIngot = {
+    name: "Iron Ingot",
+    img: IronIngotImg,
+    ingredients: [],
+};
+
+const IronNugget = {
+    name: "Iron Nugget",
+    img: IronNuggetImg,
+    ingredients: [IronIngot],
+};
+
 const Bucket = {
     name: "Bucket",
     img: BucketImg,
-    ingredients: [],
+    ingredients: [IronIngot],
 };
 
 const Carrot = {
@@ -360,12 +372,6 @@ const CherryBoatWithChest = {
     name: "Cherry Boat With Chest",
     img: CherryBoatWithChestImg,
     ingredients: [CherryPlanks, Chest],
-};
-
-const IronIngot = {
-    name: "Iron Ingot",
-    img: IronIngotImg,
-    ingredients: [],
 };
 
 const TripwireHook = {
@@ -450,12 +456,6 @@ const Diamond = {
     name: "Diamond",
     img: DiamondImg,
     ingredients: [],
-};
-
-const IronNugget = {
-    name: "Iron Nugget",
-    img: IronNuggetImg,
-    ingredients: [IronIngot],
 };
 
 const InkSac = {
