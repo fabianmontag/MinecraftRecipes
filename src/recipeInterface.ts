@@ -14,7 +14,7 @@ function getImageName(name: string) {
 }
 
 function getUrl(name: string) {
-    return `item/${getImageName(name)}.png`;
+    return `./item/${getImageName(name)}.png`;
 }
 
 // we restrict the type of ingredients to only have values of the outputs
